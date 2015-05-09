@@ -72,7 +72,7 @@ int main(void)
 #else
 	//print boot up message
 	lcd_home();
-	lcd_string_F(PSTR("Sonic Potions"));
+	lcd_string_F(PSTR("Oerfil "));
 	//goto 2nd line
 	lcd_setcursor(0,2);
 	lcd_string_F(PSTR("LXR Drums V"));
